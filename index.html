@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Module1</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  </head>
+
+  <body>
+    <header class="gray">
+      <div class="top center">
+        <div class="logo"><a href="#"><span>ACME</span><span>corp</span></a></div>
+        <div class="nav-wrapper">
+          <div class="nav">
+            <ul>
+              <li><a href="#">Feature</a> </li>
+              <li><a href="#">Download</a> </li>
+
+              <li><a href="#">News</a> </li>
+              <li><a href="#">Contact</a> </li>
+            </ul>
+
+          </div>
+          <button>GET STARTED</button>
+        </div>
+        <div id="burgerMenu" onclick="toggle()"><i class="fas fa-bars"></i>
+          <div id="nav-wrapperBurger">
+            <div class="navBurger">
+              <ul>
+                <li><a href="#">Feature</a> </li>
+                <li><a href="#">Download</a> </li>
+
+                <li><a href="#">News</a> </li>
+                <li><a href="#">Contact</a> </li>
+              </ul>
+
+            </div>
+            <button>GET STARTED</button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section onclick="hide()" class=" section1 gray ">
+      <div class="section1-wrapper center">
+        <div class="section1-text">
+          <h1>The Sweet Deal of a Package.</h1>
+          <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti tenetur doloremque laborum?</span>
+          <button>DOWNLOAD THE APP</button>
+        </div>
+        <img src="./images/device3.png" alt="device">
+      </div>
+    </section>
+    <section onclick="hide()" class="section2">
+      <div class="items  center">
+        <div class="item-wrapper">
+          <div class="item-image-wrapper"><img src="./images/image-black.png" alt="default_image"></div>
+          <div class="item-text-wrapper">
+            <span>Feature1</span>
+            <span>Feature explanation</span>
+            <span>Title 01</span>
+            <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto, autem.</span>
+          </div>
+        </div>
+        <div class="item-wrapper">
+          <div class="item-image-wrapper"><img src="./images/image-black.png" alt="default_image"></div>
+          <div class="item-text-wrapper">
+            <span>Feature2</span>
+            <span>Feature explanation</span>
+            <span>Title 01</span>
+            <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto, autem.</span></div>
+        </div>
+        <div class="item-wrapper gray gray-text">
+          <div class="item-image-wrapper">
+            <img src="./images/image-white.png" alt="default_image"></div>
+          <div class="item-text-wrapper">
+            <span>Feature3</span>
+            <span>Feature explanation</span>
+            <span>Title 01</span>
+            <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto, autem.</span></div>
+        </div>
+      </div>
+
+      <div class="userExperiens center">
+        <div class="userExperiensImage"> <img src="./images/deviceBlack.png" alt="deviceBlack"> </div>
+        <div class="userExperiens-text">
+          <span>Built with UserExperience In Mind</span>
+          <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, nemo.</span>
+          <div class="userExperiensItems">
+            <div><img src="./images/image-white-black-border.png" alt="image-white-black-border"> Lorem ipsum dolor sit.</div>
+            <div><img src="./images/image-white-black-border.png" alt="image-white-black-border"> Lorem ipsum dolor sit.</div>
+            <div><img src="./images/image-white-black-border.png" alt="image-white-black-border"> Lorem ipsum dolor sit.</div>
+            <div><img src="./images/image-white-black-border.png" alt="image-white-black-border"> Lorem ipsum dolor sit.</div>
+          </div>
+        </div>
+      </div>
+      <div class="news center">
+        <div class="mainNews"><span>
+                We're in the News
+            </span>
+          <span>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi, minima?
+            </span></div>
+        <div class="newsItems">
+          <div class="newsItem"><img src="./images/newsItem.png" alt="newsItem"><span>Yet another e-mail by Clark from Invision!</span>
+            <span>Lorem, ipsum dolor.</span>
+          </div>
+          <div class="newsItem"><img src="./images/newsItem.png" alt="newsItem"><span>Yet another e-mail by Clark from Invision!</span>
+            <span>Lorem, ipsum dolor.</span>
+          </div>
+          <div class="newsItem"><img src="./images/newsItem.png" alt="newsItem"><span>Yet another e-mail by Clark from Invision!</span>
+            <span>Lorem, ipsum dolor.</span>
+          </div>
+
+        </div>
+      </div>
+      <div class="downloadWrapper gray">
+        <div class="center gray download">
+          <div class="gray-text">Download the APP now</div>
+          <div class="downloadButtons">
+            <button><div><i class="fab fa-apple"></i></div>
+                      <div class="buttonText"><span>Avalible on the</span><span>App Store</span></div> </button>
+            <button><div><i class="fab fa-google-play"></i></div>
+                      <div class="buttonText"><span>Avalible on the</span><span>PlayStore</span></div> </button></div>
+        </div>
+      </div>
+    </section>
+    <main></main>
+    <footer class="center">
+      <div class="linksWrapper">
+        <ul>
+          <li>
+            <div class="logoFooter"><a href="#"><span>ACME</span><span>corp</span></a></div>
+          </li>
+          <li class="logoInfo"><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, optio.</a> </li>
+
+        </ul>
+        <ul>
+          <li><a href="#">Lorem</a> </li>
+          <li><a href="#">Lorem</a> </li>
+          <li><a href="#">Lorem</a> </li>
+          <li><a href="#">Lorem</a> </li>
+        </ul>
+        <ul>
+          <li><a href="#">Lorem</a> </li>
+          <li><a href="#">Lorem</a> </li>
+          <li><a href="#">Lorem</a> </li>
+          <li><a href="#">Lorem</a> </li>
+        </ul>
+        <ul>
+          <li><a href="#">Lorem</a> </li>
+          <li><a href="#">Lorem</a> </li>
+          <li><a href="#">Lorem</a> </li>
+          <li><a href="#">Lorem</a> </li>
+        </ul>
+        <ul>
+          <li><a href="#">Lorem</a> </li>
+          <li><a href="#">Lorem</a> </li>
+          <li><a href="#">Lorem</a> </li>
+          <li><a href="#">Lorem</a> </li>
+        </ul>
+
+      </div>
+      <div class="rights"> Lorem ipsum dolor sit amet consectetur </div>
+
+    </footer>
+  </body>
+  <script src="./js/main.js"></script>
+
+</html>
