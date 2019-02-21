@@ -370,6 +370,7 @@
   footer ul>li {
     font-size: 12px;
     margin-bottom: 11px;
+    max-width: 100px;
   }
   
   .rights {
